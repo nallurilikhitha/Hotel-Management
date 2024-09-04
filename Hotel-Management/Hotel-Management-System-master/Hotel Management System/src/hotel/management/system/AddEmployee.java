@@ -9,7 +9,7 @@ import java.awt.event.*;
 import java.sql.*;
 import javax.swing.*;
 
-public class AddEmployee extends JFrame{ //Third Frame
+public class AddEmployee extends JFrame{ 
 
     
 	JTextField textField,textField_1,textField_2,textField_3,textField_4,textField_5,textField_6;
