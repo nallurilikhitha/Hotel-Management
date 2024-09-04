@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package hotel.management.system;
 
 
@@ -31,7 +27,7 @@ public class Dashboard extends JFrame{
 	NewLabel.setBounds(0, 0, 1950, 1000); 
         add(NewLabel);
         
-        JLabel AirlineManagementSystem = new JLabel("THE TAJ GROUP WELCOMES YOU");
+        JLabel AirlineManagementSystem = new JLabel(" The Velvet Haven Welcomes You");
 	AirlineManagementSystem.setForeground(Color.WHITE);
         AirlineManagementSystem.setFont(new Font("Tahoma", Font.PLAIN, 46));
 	AirlineManagementSystem.setBounds(600, 60, 1000, 85);
