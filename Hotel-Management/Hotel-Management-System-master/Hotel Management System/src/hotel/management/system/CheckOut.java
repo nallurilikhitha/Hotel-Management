@@ -21,9 +21,7 @@ public class CheckOut extends JFrame{
 	private JTextField t1;
         Choice c1;
 
-	/**
-	 * Launch the application.
-	 */
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -40,10 +38,7 @@ public class CheckOut extends JFrame{
 		this.dispose();
 	}
 
-	/**
-	 * Create the frame.
-	 * @throws SQLException 
-	 */
+	
 	public CheckOut() throws SQLException {
 		//conn = Javaconnect.getDBConnection();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
